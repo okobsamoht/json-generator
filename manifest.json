@@ -1,0 +1,13 @@
+{
+  "name": "JSON GENERATOR",
+  "description": "My first Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "favicon.ico", "128": "favicon.ico" },
+"permissions": ["storage", "alarms", "notifications", "webview","http://www.json-generator.com/"]
+}
